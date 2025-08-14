@@ -1,0 +1,101 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wish card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="images/zuiy.gif" alt="stars" class="star">
+    <img src="images/balloon.gif" alt="ballon" class="ballon">
+    <div class="container">
+        <div class="birthdayCard">
+            <div class="cardFront">
+                <div class="front-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">Moon Pie😚</h3>
+                </div>
+                <div class="wrap-deco">
+                    <div class="decorations"></div>
+                    <div class="decorationsTwo"></div>
+                </div>
+                <div class="wrap-decoTwo">
+                    <div class="decorations"></div>
+                    <div class="decorationsThree"></div>
+                </div>
+                <div class="plate">
+                    <div class="cake"></div>
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <div class="cardInside">
+                <div class="img">
+                    <img src="images/penguin.jpg" alt="Brotherpic" class="bdyboy">
+                    <img src="images/cel.gif" alt="confetti" class="confetti">
+                </div>
+                <div class="inside-text">
+                    <h3 class="happy">HAPPY</h3>
+                    <h2 class="bday">BIRTHDAY</h2>
+                    <h3 class="toyou">Moon Pie😚</h3>
+                </div>
+                <div class="wishes">
+                    <p>Dear Aline,</p>
+                    <p>Happy Birthday!! En ce jour spécial, je te souhaite une vie pleine de sourires, 
+                        un cœur rempli de rêves et d'aventures qui rendent chaque instant précieux. 
+                        Cheers to another amazing year!🎉</p>
+                        <p class="name">nemmy</p>
+                    </div>
+            </div>
+        </div>
+
+        <div>
+            <button class="home-button">Home Page</button>
+        </div>
+
+    </div>
+
+    <style>
+        .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* space between card and button */
+}
+
+.home-button {
+    background: linear-gradient(145deg, #ff66b2, #ff99cc);
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.6);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 105, 180, 0.8);
+}
+
+    </style>
+
+   
+
+    <script>
+
+        // Add button click handler
+        document.querySelector('.home-button').addEventListener('click', () => {
+            // You can replace this with your actual next page URL
+            window.location.href = 'index.html';
+        });
+
+
+    </script>
+
+    <img src="images/cat.gif" alt="cat" class="cat">
+
+
+</body></html>
